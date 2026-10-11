@@ -1,0 +1,8 @@
+*
+!.gitignore
+!.nojekyll
+!CNAME
+!index.html
+!confidentialite.html
+!conditions.html
+!styles.css

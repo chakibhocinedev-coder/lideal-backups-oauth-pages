@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, follow">
+  <meta name="description" content="Données Google Drive, usages, conservation et retrait de l’accès de l’outil interne Lideal Backups.">
+  <title>Confidentialité de l’outil — Lideal Backups</title>
+  <link rel="canonical" href="https://backups.lidealentretienmenager.ca/confidentialite.html">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <a class="brand" href="index.html">Lideal Backups</a>
+    <nav aria-label="Navigation de l’outil"><a href="index.html">Accueil</a><a href="confidentialite.html" aria-current="page">Confidentialité</a><a href="conditions.html">Conditions d’utilisation</a></nav>
+  </header>
+  <main id="contenu" tabindex="-1">
+<aside class="draft"><strong>Outil interne — configuration en cours</strong><p>Version du 11 octobre 2026. Aucun accès Google Drive n’a encore été accordé à l’outil ; l’automatisation reste désactivée. Cette politique décrit son fonctionnement prévu.</p></aside>
+    <p class="eyebrow">Un document propre à l’outil interne</p>
+    <h1>Politique de confidentialité de Lideal Backups</h1>
+    <p class="lead">Cette politique concerne l’accès Google Drive de Lideal Backups, l’outil de sauvegarde chiffrée de L’idéal Entretien Ménager. Elle ne remplace pas la politique du site public et de son formulaire de soumission.</p>
+    <section aria-labelledby="responsable">
+      <h2 id="responsable">Qui utilise cet outil ?</h2>
+      <p>L’idéal Entretien Ménager est une entreprise individuelle enregistrée au nom de Diane Champagne. Diane Champagne est responsable de la protection des renseignements personnels, sauf délégation écrite ultérieure. Vous pouvez la joindre à <a href="mailto:info@lidealentretienmenager.ca">info@lidealentretienmenager.ca</a>.</p>
+      <p>L’usage de l’outil est réservé à l’opérateur autorisé par l’entreprise. Il n’est pas offert comme service d’accès aux comptes Google du public.</p>
+    </section>
+    <section aria-labelledby="permission">
+      <h2 id="permission">Une seule autorisation : drive.file</h2>
+      <p>L’outil demandera uniquement l’autorisation Google Drive <code>drive.file</code>. Elle permet de créer, consulter, modifier ou supprimer les fichiers créés par l’application ou explicitement ouverts ou sélectionnés pour elle. Elle n’autorise pas l’accès général à tout le Drive.</p>
+      <p>Les fonctions prévues de l’outil se limitent à créer les dossiers et les archives nécessaires, vérifier les métadonnées et retélécharger les nouvelles archives pour contrôler leur intégrité. Il ne comporte pas de fonction de suppression de fichiers Drive ni de modification des autorisations de partage.</p>
+      <p>L’autorisation Google est accordée par fichier. L’espace de sauvegarde approuvé constitue une restriction d’usage supplémentaire de l’outil, et non un scope Google limité à un dossier.</p>
+    </section>
+    <section aria-labelledby="donnees">
+      <h2 id="donnees">Quelles données sont utilisées et pourquoi ?</h2>
+      <ul>
+        <li><strong>L’adresse du compte Google et les informations de propriétaire et de partage</strong> servent à vérifier que la destination appartient au compte approuvé et reste privée.</li>
+        <li><strong>Les identifiants, noms, types, emplacements et tailles des fichiers ou dossiers autorisés, ainsi que leur état de mise à la corbeille</strong> servent à trouver la destination, créer les copies et contrôler le transfert.</li>
+        <li><strong>Les nouvelles archives chiffrées</strong> sont envoyées à Google Drive puis retéléchargées pour comparer leur empreinte d’intégrité et vérifier qu’elles peuvent être ouvertes localement.</li>
+      </ul>
+      <p>Le programme ne recherche pas les documents personnels sans rapport avec la sauvegarde. Il ne demande aucun accès à Gmail, aux contacts ou à l’agenda.</p>
+      <p>Les archives peuvent contenir des renseignements de l’entreprise sauvegardés. Leur contenu et leurs noms internes sont chiffrés avant l’envoi. Google Drive reçoit le fichier chiffré et ses métadonnées extérieures, notamment sa taille et son nom contenant une date technique. Le mot de passe de chiffrement reste séparé des archives et n’est pas transmis à Google Drive.</p>
+    </section>
+    <section aria-labelledby="usages">
+      <h2 id="usages">Ni revente ni partage public</h2>
+      <p>Les données reçues de Google servent uniquement à la sauvegarde, au contrôle de la destination et à la vérification de la copie distante. Elles ne sont ni revendues, ni utilisées pour la publicité, le profilage ou l’entraînement de modèles d’intelligence artificielle.</p>
+      <p>L’outil ne crée aucun partage public. Google Drive est le service de stockage choisi. Healthchecks.io reçoit seulement un signal technique de réussite ou d’échec ; aucun fichier Drive, renseignement client ou contenu métier n’est ajouté à ce signal.</p>
+      <p>L’utilisation des informations reçues des API Google sera limitée à ces finalités et conforme à la <a href="https://developers.google.com/terms/api-services-user-data-policy">politique Google API Services User Data Policy</a>, y compris ses exigences de « Limited Use ».</p>
+    </section>
+    <section aria-labelledby="stockage">
+      <h2 id="stockage">Stockage, conservation et suppression</h2>
+      <p>Les archives chiffrées sont destinées à l’espace Drive privé approuvé et une copie est conservée sur le poste de l’opérateur. Les reçus techniques locaux peuvent conserver des dates, tailles, empreintes d’intégrité et identifiants des copies pour permettre leur contrôle.</p>
+      <p><strong>Aucune échéance de suppression automatique n’est en service.</strong> Les archives et reçus restent conservés jusqu’à une intervention manuelle autorisée. Le calendrier applicable aux copies de sauvegarde et aux reçus techniques devra être adopté avant d’activer une rotation ; l’outil ne le remplace pas par une durée inventée.</p>
+      <p>La règle approuvée pour les demandes de soumission non devenues clientes est un maximum de 24 mois après la dernière interaction, avec destruction plus tôt lorsque les renseignements ne sont plus nécessaires, sous réserve d’une obligation légale de conservation plus longue. Ce plafond n’est pas une instruction de conserver toute archive pendant 24 mois. Son application aux copies et aux dossiers clients doit être organisée séparément.</p>
+      <p>Les moyens d’accès Google sont destinés à être conservés uniquement sur le poste, protégés par le mécanisme de chiffrement Windows et ses contrôles d’accès. Le jeton d’accès utilisé pour une requête reste en mémoire ; aucun jeton de renouvellement n’a encore été obtenu. Aucun secret n’est destiné aux pages publiques ou au dépôt de code.</p>
+    </section>
+    <section aria-labelledby="retrait">
+      <h2 id="retrait">Retirer l’accès ou demander une intervention</h2>
+      <p>Le titulaire du compte peut retirer l’accès de l’application dans les connexions aux applications tierces de son compte Google. Cela empêche les futurs accès autorisés par ce consentement ; cela ne supprime pas les archives déjà présentes dans Drive ou sur le poste.</p>
+      <p>Pour l’arrêt définitif de l’outil, le retrait des moyens d’accès locaux et le traitement des copies conservées doivent être effectués par l’opérateur. Pour une demande d’accès, de rectification ou de suppression concernant vos renseignements, écrivez à <a href="mailto:info@lidealentretienmenager.ca">info@lidealentretienmenager.ca</a>. N’envoyez jamais de mot de passe, de jeton ou d’archive de sauvegarde par courriel.</p>
+    </section>
+    <section aria-labelledby="pages">
+      <h2 id="pages">Ces pages d’information</h2>
+      <p>L’hébergement prévu de ces pages d’information est GitHub Pages. Lors de leur consultation après publication, GitHub enregistrera l’adresse IP des visiteurs à des fins de sécurité, même sans connexion à un compte GitHub. Ses pratiques sont décrites dans la <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">déclaration de confidentialité de GitHub</a>. Aucun délai propre aux journaux de GitHub n’est annoncé ici.</p>
+      <p>Ces pages statiques ne contiennent ni formulaire, ni script, ni outil publicitaire ou d’analyse d’audience ajouté par L’idéal. Elles n’hébergent aucune archive et ne reçoivent aucun moyen d’accès Google. L’hébergement des pages est séparé du stockage des sauvegardes.</p>
+      <p>La date et ce document seront revus si les usages, les permissions ou la conservation changent. Les <a href="conditions.html">conditions d’utilisation</a> précisent le périmètre réservé de l’outil. Support technique : <a href="mailto:chakibhocine.dev@gmail.com">chakibhocine.dev@gmail.com</a>.</p>
+    </section>
+  </main>
+  <footer><p>Lideal Backups · L’idéal Entretien Ménager</p><nav aria-label="Informations de l’outil"><a href="confidentialite.html">Confidentialité</a><a href="conditions.html">Conditions d’utilisation</a></nav></footer>
+</body>
+</html>
